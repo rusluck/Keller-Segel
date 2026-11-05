@@ -4,7 +4,7 @@ The Keller-Segel System is described by the following equations
 
 $$\left.\begin{aligned}
 u_{t}  & =   \nabla \cdot (k_{1}(u,v)\nabla u-k_{2}(u,v)\nabla v) & x \in \Omega,t>0 \\
-v_{t}   &= k_{c}\nabla v-k_{3}(v)(v)+uf(v) & x\in \Omega, t>0 \\
+v_{t}   &= k_{c}\nabla v-k_{3}(v)v+uf(v) & x\in \Omega, t>0 \\
 \dfrac{ \partial u }{ \partial n } &=  \dfrac{ \partial v }{ \partial n } = 0 & x\in\partial \Omega,t>0 \\
 \end{aligned}\right\}$$
 where $u$ is the cell density and $v$ is the chemoattractant density, and $n$ is the normal of the boundary $\Omega$.
